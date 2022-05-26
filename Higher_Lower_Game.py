@@ -31,7 +31,7 @@ while x != 'n': #Loops to replay game.
             done = True
 
     x = input('\nDo you want to play again? (y/n): ')
-    while x is not 'y' or 'n': #loops if input isn't yes/no(y/n)
+    while x != 'y' or 'n': #loops if input isn't yes/no(y/n)
         x = input(f"Im sorry {player_name}, I didn't quite get that. Do you want to play again? (y/n)")
    
 input('Thanks for playing! Press ENTER to exit. - Zahlen')
